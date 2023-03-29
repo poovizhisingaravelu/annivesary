@@ -1,0 +1,47 @@
+html,body{
+    background-color: rgb(216, 180, 126);
+}
+h1{
+    text-align: center;
+    color: brown;
+    text-shadow: 2px 2px #FF0000;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  h3{
+    text-align: center;
+    color:rgb(198, 74, 95);
+    text-shadow: 2px 2px #d38989;
+  }
+  .heart{
+       width: 100px;
+       height: 100px;
+       transform: rotate(45deg);
+       transform-origin: center;
+       position: relative;
+       background: red;
+       margin: 100px auto;
+    }
+    .heart::before, .heart::after{
+       content: '';
+       position: absolute;
+       width: 100px;
+       height: 100px;
+       border-radius: 50%;
+       background: red;
+    }
+    .heart::before{
+       left: -50px;
+    }
+    .heart::after{
+       top: -50px;
+    }
+    p{
+        text-align:center;
+    color: rgb(123, 14, 76);
+    text-shadow: 2px 2px #412299
+    }
